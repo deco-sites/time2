@@ -2473,6 +2473,10 @@
     ],
     "__resolveType": "site/sections/Links/Shortcuts.tsx"
   },
+  "Teste AB": {
+    "__resolveType": "website/matchers/random.ts",
+    "traffic": 0.5
+  },
   "Testimonials - 01": {
     "title": "Testimonials",
     "layout": {
@@ -3645,20 +3649,24 @@
     "__resolveType": "vtex/workflows/events.ts"
   },
   "vtex": {
-    "account": "bravtexfashionstore",
+    "account": "dudah",
     "platform": "vtex",
-    "publicUrl": "fashion.bravtexstores.com.br",
+    "publicUrl": "https://www.dudahbeauty.com.br/",
     "salesChannel": "1",
     "__resolveType": "decohub/apps/vtex.ts",
     "defaultSegment": {
       "channelPrivacy": "public"
+    },
+    "appKey": {
+      "__resolveType": "website/loaders/secret.ts",
+      "encrypted": "9400dfdf3e63962d59e4e0d2a4dd06191f57cdcb3ee2566909fa43b480f9ad0b"
+    },
+    "appToken": {
+      "__resolveType": "website/loaders/secret.ts",
+      "encrypted": "b93bf57b196936ca69538e8e5c25ac6feed9816dfae9e3c36c797e5c4cc64963c00c27ee0dd434e8ed38d2d64383f9dfac0ff1194c3c1f41742febc803c0b6e49f481db3c136900cee4ebf73f6346cd5b46c078adad6a8ce039a610ddf6e34865dee108413f9fa20c02d5bec5b70e1f252d459136d73f438bafbab09cabeb8e9ad2d179e123af557cd56d3312a162751"
     }
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
-  },
-  "Teste AB": {
-    "__resolveType": "website/matchers/random.ts",
-    "traffic": 0.5
   }
 }
